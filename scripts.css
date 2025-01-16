@@ -1,0 +1,46 @@
+.main-flex-container{
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+
+    /*relative units
+        Viewport units, 100 vw means 100 percent of the screen. 
+    */
+    width: 100vw ;
+    height: 100vw;
+
+    --background-color-test : gray; 
+
+
+}
+
+
+.main-flex-container > div{
+    flex:auto; 
+
+}
+
+.flex-container-1{
+    flex:auto;
+    width: 20vw;
+    height: 100vw;
+    background-color: var(--background-color-test); 
+    color: var(--background-color-test);
+
+}
+.flex-container-2{
+    flex:auto;
+    width: 80vw;
+    height:100vw; 
+    background-color: var(--background-color-test);
+    color: var(--background-color-test);
+}
+
+
+
+
+/*This will contain the norse font*/
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../../Library/Fonts/Norse-Bold.otf); 
+}
